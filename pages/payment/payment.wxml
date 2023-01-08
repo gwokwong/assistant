@@ -1,0 +1,38 @@
+<view>
+    <view >
+        <view>
+            <l-input label="贷款总额"  placeholder="请输入" label-layout="left" clear="{{false}}" value="{{principal}}" bindlininput="inputprincipal">
+                <span slot="right">万元</span>
+            </l-input>
+            <l-input label="按揭期数"  placeholder="请输入" label-layout="left" clear="{{false}}"  value="{{months}}" bindlininput="inputmonths"  >
+                <span slot="right">个月</span>
+            </l-input>
+            <l-input label="利率"  placeholder="请输入" label-layout="left" clear="{{false}}"  value="{{rate}}" bindlininput="inputrate">
+                <span slot="right">%</span>
+            </l-input>
+            <l-input label="已还期数"  placeholder="请输入" label-layout="left" clear="{{false}}"  value="{{payTimes}}" bindlininput="inputpayTimes" >
+                <span slot="right">个月</span>
+            </l-input>
+            <l-input label="提前还款额"  placeholder="请输入" label-layout="left" clear="{{false}}"  value="{{aheadPrincipal}}"  bindlininput="inputaheadPrincipal">
+                <span slot="right">万元</span>
+            </l-input>
+
+            <l-button  bind:lintap="calculation" data-type="1" size="large" style='margin-left: 20rpx;margin-right: 20rpx; width: 180rpx;'>开始计算</l-button>
+            <view style="margin-left:20rpx;margin-right: 20rpx;">
+                <l-textarea auto-height="{{true}}" maxlength="-1" value="{{result}}" style='margin-left: 20rpx;margin-right: 20rpx;margin-top: 20rpx;' indicator="{{false}}"/></view>
+            </view>
+
+            <view style="margin-left:20rpx;margin-right: 20rpx;">
+                <text style="font-size: small;color: gray;width: 100%;">提示：计算方式按减少月还款额，还款期限不变（另外一种估计都不给我们选）</text>
+            </view>
+
+            
+    </view>
+</view>
+<view class="footer">
+    <ad unit-id="adunit-165d2aac813d041e"></ad>> 
+</view>
+
+
+
+

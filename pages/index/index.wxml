@@ -1,0 +1,62 @@
+<view class="loading">
+    <view>
+        <text class="type_title">vni30</text>
+        <view class="circle" style="{{circleStyle}}">
+            <view class="wave" style="{{waveStyle}}">
+                <text class="center_txt" style="{{vn30IndexStyle}}">{{vn30Index}}</text>
+            </view>
+        </view>
+        <view style="margin-top: 20rpx;">
+            <text class="type_title">{{vn30IndexRefreshTime}}</text>
+        </view>
+    </view>
+    <view style="margin-left: 60rpx;">
+        <text class="type_title">xop</text>
+        <view class="circle" style="{{xopCircleStyle}}" >
+            <view class="wave" style="{{xopWaveStyle}}">
+                <text class="center_txt" style="{{xopIndexStyle}}">{{xopIndex}}</text>
+            </view>
+        </view>
+        <view style="margin-top: 20rpx;">
+            <text class="type_title">{{xopIndexRefreshTime}}</text>
+        </view>
+        
+    </view>
+</view>
+
+<view>
+    <view class="tui-table-view" style='margin-top:30rpx'>
+
+        <l-button shape="semicircle"   bind:lintap="refresh" data-type="1" size="large" style='margin-bottom:10rpx'>刷新</l-button>
+
+        <view style="margin-top: 5rpx;width: 100%;">
+            <text style="font-size: small;color: gray;width: 100%;">数据空白请点击右上角胶囊的"重新进入小程序"</text>
+        </view>
+    
+        <l-button shape="semicircle" plain bind:lintap="history" data-type="1" size="large"  style='margin-top:30rpx'>vni历史数据</l-button>
+        <l-button shape="semicircle" plain bind:lintap="payment" data-type="1" size="large"  style='margin-top:30rpx'>等额本息提前还贷计算器</l-button>
+
+    </view>
+        
+        <!-- <l-button bind:lintap="reward" data-type="1" style='margin-right:50rpx'>赞赏</l-button> -->
+        <!-- <l-button type="warning" open-type="feedback" data-type="1">反馈</l-button> -->
+    <!-- </view> -->
+
+    
+</view>
+
+
+
+
+<l-toast
+    show="{{showToast}}"
+    title="刷新成功"
+    icon="success"
+    image=""
+    placement=""
+    duration="700"
+    center="false"
+    mask="false"
+    l-image-class="img"
+  />
+

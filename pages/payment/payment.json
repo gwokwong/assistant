@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "提前还贷计算器",
+    "usingComponents": {
+        "l-button":"/miniprogram_npm/lin-ui/button/index",
+        "l-input":"/miniprogram_npm/lin-ui/input/index",
+        "l-textarea":"/miniprogram_npm/lin-ui/textarea/index"
+      }
+  }

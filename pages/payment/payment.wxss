@@ -1,0 +1,9 @@
+/* pages/payment/payment.wxss */
+.footer {
+    position: fixed;
+    bottom: 10rpx;
+    font-size: 10rpx;
+    color: #374046;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-button":"/miniprogram_npm/lin-ui/button/index",
+    "l-toast": "/miniprogram_npm/lin-ui/toast/index"
+  },
+  "navigationBarTitleText": "小旺助手"
+}
