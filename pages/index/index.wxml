@@ -17,7 +17,7 @@
                 <text class="center_txt" style="{{xopIndexStyle}}">{{xopIndex}}</text>
             </view>
         </view>
-        <view style="margin-top: 20rpx;">
+        <view style="margin-top: 10rpx;">
             <text class="type_title">{{xopIndexRefreshTime}}</text>
         </view>
         
@@ -42,10 +42,11 @@
         <!-- <l-button type="warning" open-type="feedback" data-type="1">反馈</l-button> -->
     <!-- </view> -->
 
-    
 </view>
 
-
+<view class="footer">
+    <ad unit-id="adunit-165d2aac813d041e"></ad>> 
+</view>
 
 
 <l-toast

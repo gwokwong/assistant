@@ -21,7 +21,7 @@
 
 .loading {
     width: 100vw;
-    height: 250px;
+    height: 180px;
     background-color: #374046;
     display: flex;
     justify-content: center;
@@ -30,8 +30,8 @@
 
 .circle {
     margin-top: 5rpx;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: #374046;
     border: 10px solid #374046;
     border-radius: 50%;
@@ -43,8 +43,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50rpx;
-    padding-bottom: 20rpx;
+    margin-top: 30rpx;
+    padding-bottom: 15rpx;
 }
 
 .wave {
